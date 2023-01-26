@@ -1,4 +1,4 @@
-package com.capgemini.manufacturer;
+package com.storesmanagementsystem.manufacturer;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
