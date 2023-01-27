@@ -26,5 +26,12 @@ pipeline {
             }
             }
         }
+        stage ('Delpoy') {
+            steps {
+              script {
+		                sh "../jenkins/deploy.sh chanduv33/manufacturer-service:\"${env.BUILD_NUMBER}\""
+	            }   
+            }           
+        }
     }
 }
